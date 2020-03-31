@@ -1,0 +1,110 @@
+@charset "UTF-8";
+#contents{
+	width : 100%;
+	overflow: hidden;
+}
+
+table.horizontal-list-table, th, td {
+	margin : auto;
+	width : 85%;
+	border-collapse: collapse;
+	border: 1px solid #CCCCCC;
+	line-height: 2;
+}
+
+table.horizontal-list-table th {
+	width: 10%;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-align: center;
+	vertical-align: middle;
+	background-color: navy;
+	color: white;
+	border: 1px solid #CCCCCC;
+}
+
+table.horizontal-list-table td {
+	width: 10%;
+	padding: 10px;
+	font-size: 0.8em;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #CCCCCC;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: right;
+	margin-right: 10%;
+}
+
+.info{  /* メッセージ */
+	padding: 5px;
+	text-align: center;
+	width: 90%;
+	height: 70px;
+	background-color: aqua;
+	border: 1px solid blue;
+	color: blue;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	line-height: 70px;
+}
+
+.submit_btn_box .submit_btn{ /* ボタン */
+	padding: 0.5em 1em;
+    border-radius: 80px;
+    width: 90px;
+	height : 30px;
+	margin: 5px 50% 5px 50%;
+    font-size: 11px;
+    color: white;
+    background: navy;
+}
+
+.submit_btn:disabled{
+	background-image: none;
+    background-color: #4b7ea1;
+    border-color: #4b7ea1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#4477a1) );
+    background: -moz-linear-gradient(-90deg, #81a8cb, #4477a1);
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1');
+	opacity: 0.5;
+}
+
+.submit_btn:hover{
+    color: white;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.5;
+    background: #81a8cb;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(navy) );
+    background: -moz-linear-gradient(-90deg, white, navy);
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4477a1', endColorstr='#81a8cb');
+}
+
+.success {  /* 購入成功画面等々 */
+    width: 90%;
+    border: 1px solid green;
+    margin: 0 auto;
+    padding: 15px;
+    color: green;
+    background-color: #dff2bf;
+    font-size: 10px;
+}
+
+.info1{  /* メッセージ */
+	padding: 5px;
+	text-align: center;
+	width: 90%;
+	height: 70px;
+	background-color: aqua;
+	border: 1px solid blue;
+	color: blue;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}

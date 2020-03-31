@@ -1,0 +1,12 @@
+h1 {
+	font-size: 26px;
+	color: navy;
+	font-family: Verdana, Helvetica, sans-serif;
+	border-top: 2px solid navy;
+	border-bottom: 2px solid navy;
+	width: 90%;
+	margin: 15px auto;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}

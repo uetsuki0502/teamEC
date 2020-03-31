@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.product-list-table {
+	text-align: center;
+	width:100vw;
+}
+.product-list-table td{
+	text-align: center;
+	width: 33%;
+	height: 33%;
+}
+.product-list-table tr{
+	text-align: center;
+	width: 33%;
+	height: 20vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	text-align: center;
+	width: 33%;
+	height: 20vh;
+}
+.info{
+	padding: 5px;
+	text-align: center;
+	width: 90%;
+	height: 70px;
+	background-color: aqua;
+	border: 1px solid blue;
+	color: blue;
+	margin: 0 auto;
+	margin-top:15px;
+}

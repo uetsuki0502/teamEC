@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+.box{
+	margin-top : 20px;
+	margin-bottom : 5px;
+}
+
+.2column-container {
+	width : 90%;
+}
+
+.item-image-box-320 {
+	width : 320px;
+	height : 320px;
+}
+
+table.vertical-list-table-mini {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	text-align: left;
+	font-size: 1.0rem;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+.vertical-list-table-mini th {
+	width: 35%;
+	padding: 10px;
+	font-weight: 400;
+	vertical-align: middle;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background: navy;
+	color:#ffffff;
+}
+
+.vertical-list-table-mini td {
+	width: 65%;
+	padding: 10px;
+	vertical-align: middle;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.left {
+	float : left;
+	width : 400px;
+	height : 325px;
+	margin-bottom : 40px;
+}
+
+.right {
+	float:left;
+	width : 500px;
+	height : 325px;
+	margin-bottom : 40px;
+}
+
+.submit_btn_box{
+	clear: both;
+	padding-top : 20px;
+}
+
+h2 {
+	font-size: 23px;
+	color: navy;
+	font-family: Verdana, Helvetica, sans-serif;
+	width: 100%;
+	text-align: center;
+	padding: 0.5em 0;
+}
+
+.product-details-recommend-box {
+	margin-top: 2%;
+	margin-left : 200px;
+}
+
+.recommend-box{
+	float : left;
+	width : 33.3%;
+	height : 148px;
+}
+
+.item-image-box-100{
+	width : 100px;
+	height : 100px;
+}
+
+.info{
+	padding: 5px;
+	text-align: center;
+	width: 90%;
+	height: 70px;
+	background-color: aqua;
+	border: 1px solid blue;
+	color: blue;
+	margin: 0 auto;
+	margin-top:15px;
+}

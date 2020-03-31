@@ -1,0 +1,72 @@
+@charset "UTF-8";
+body, html {
+	margin : 0; /* 余白の削除 */
+	padding : 0; /* 余白の削除 */
+	width : 100%;
+	height : 100%;
+	min-width : 630px;
+}
+#header{
+	background: navy;
+}
+#header-title{
+	float: left;
+	line-height: 60px;
+   	color: #FFD700;
+   	font-family:Tahoma;
+   	margin-left: 30px;
+   	font-size: 20px;
+   	margin-right:5px;
+}
+#header-menu{
+	height : 60px;
+}
+td{
+	border: none;
+	width: 0;
+	padding-top:15px;
+}
+.wwFormTable tbody tr, .wwFormTable{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	line-height: 42px;
+}
+#GoLoginAction, #CartAction, #MyPageAction, #LogoutAction{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	line-height: 42px;
+}
+.submit_btn1 {
+    padding: 0.5em 1em;
+    border-radius:80px;
+    width:90px;
+	height : 30px;
+	margin-top : -5px;
+	margin-left : 6px;
+    font-size:11px;
+    text-align:center;
+    color:navy;
+    background: white;
+}
+.txt-keywords {
+	width : 95%;
+	height : 20px;
+	padding-left : 5%;
+    border: 1px solid blue;
+    border-radius: 80px;
+}
+select{
+	border:2px solid transparent;
+}
+.submit_btn1:hover{
+    color:white;
+    background-color:white;
+    cursor: pointer;
+    opacity:0.5;
+    background: white;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(navy) );
+    background: -moz-linear-gradient(-90deg, white, navy);
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4477a1', endColorstr='#81a8cb');
+}
